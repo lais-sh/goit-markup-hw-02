@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo {
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+address {
+    display: flex;
+    align-items: center;
+}
+
+address ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+address ul li {
+    margin-left: 20px;
+}
+
+address ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero-section {
+    background-color: #333366; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    flex-direction: column; 
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0 0 20px;
+}
+
+.hero-content button {
+    background-color: #333399; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-content button:hover {
+    background-color: #29297a; 
+}
+
+.features-section {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.features-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.features-section li {
+    flex: 1 1 calc(25% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.features-section h3 {
+    margin-top: 0;
+}
+
+.features-section p {
+    margin: 0;
+}
+
+.team-section {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center; 
+}
+
+.team-section h2 {
+    margin-bottom: 40px; 
+}
+
+.team-section ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+.team-section li {
+    text-align: center;
+    margin-bottom: 30px;
+    flex: 1 1 calc(25% - 20px); 
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.team-section img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team-section h3 {
+    margin: 10px 0 5px;
+}
+
+.team-section p {
+    margin: 0;
+    color: #777;
+}
+
+.footer-section {
+    background-color: #000; 
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-section .logo {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-section p {
+    margin: 10px 0;
+}
